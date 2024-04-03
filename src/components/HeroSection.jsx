@@ -1,12 +1,13 @@
 import React from "react";
 import herImage from "../assets/images/image 1.png";
+import heroImage2 from '../assets/images/image2.png'
 
 function HeroSection() {
   return (
     <>
-      <section className="mt-[64px] text-white  px-8 h-[1170px]">
+      <section className="mt-[64px]  text-white min-h-screen ">
         <div className="flex">
-          <div className="flex-1">
+          <div className="flex-1 pl-6">
             <div className="bg-gray-900 w-[329px] h-[36px] flex  items-center gap-2 
              rounded-full px-1 mb-8">
               <button className="bg-green-500 rounded-full px-2 text-[10px] font-Poppins 
@@ -31,7 +32,7 @@ function HeroSection() {
           </div>
           <div className="flex-1">
             {" "}
-            <img src={herImage} alt="" className="absolute  top-[-4.5rem] right-[-5.2rem]" />
+            <img src={heroImage2} alt="" className="absolute  top-[3.5rem] right-[-0rem]" />
           </div>
           <div className="flex-1 mt-[7.2rem]">
             <div className="bg-gray-900 px-8 py-4 rounded-xl w-[11rem] flex flex-col gap-2">
