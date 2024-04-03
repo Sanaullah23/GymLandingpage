@@ -5,9 +5,9 @@ import HeroSection from '../components/HeroSection'
 function Home() {
   return (
     <>
-      <section>
+      <section className='bg-black'>
         <NavBar/>
-         <HeroSection/>
+        <HeroSection/>
       </section>
     </>
   )
